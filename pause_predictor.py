@@ -566,7 +566,7 @@ def combine_pause_syllable():
     merged.to_csv('jan27_language_features.csv', sep=',', header=True)
 
 
-def create_logistic_regression(separate):
+def create_logistic_regression():
     """
     The goal of this logistic regression is to classify whether an individual is a healthy control or is a dementia
     patient.
@@ -698,7 +698,7 @@ def main():
     # combine_syllable_csv()
     # extract_pause_features()
     # combine_pause_syllable()
-    create_logistic_regression(True)
+    create_logistic_regression()
     #update_language_csv()
 
 
